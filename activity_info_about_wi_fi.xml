@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0C4E4"
+    tools:context=".InfoAboutWiFi">
+
+    <TextView
+        android:id="@+id/textSSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#430AAA"
+        android:textSize="24sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSSID"
+        android:layout_marginTop="30dp"
+        android:textColor="#430AAA"
+        android:layout_marginLeft="30sp"
+        android:typeface="serif"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+
+        android:text="TextView" />
+</RelativeLayout>

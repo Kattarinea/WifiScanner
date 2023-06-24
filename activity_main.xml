@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0C4E4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35px"
+        android:text=" Let's scanning WI-FI networks"
+        android:textColor="#430AAA"
+        android:textSize="24sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="256dp"
+        android:layout_height="51dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_text"
+        android:layout_marginTop="747dp"
+        android:shadowColor="@color/purple_700"
+        android:text="Scanning"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/Widget.AppCompat.Light.ListView.DropDown"
+        android:layout_width="361dp"
+        android:layout_height="695dp"
+        android:layout_below="@id/button_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:background="#E3DFEA"
+        android:backgroundTint="#E1DAED"
+        android:cacheColorHint="#5A13D8"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:divider="@color/white"
+
+        android:dividerHeight="1dp"
+        android:listSelector="@color/white" />
+
+</RelativeLayout>
